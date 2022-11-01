@@ -8,7 +8,7 @@ import org.springframework.test.context.ActiveProfiles
 
 @SpringBootTest(classes = [ConfigurationExposer::class])
 @ActiveProfiles("test")
-internal class ConfigurationExposerTest {
+internal class ProfileConfigurationExposerTest {
 
     @Autowired
     lateinit var sut: ConfigurationExposer
