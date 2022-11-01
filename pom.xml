@@ -21,6 +21,7 @@
     <modules>
         <module>app</module>
         <module>test</module>
+        <module>test-using-replica</module>
     </modules>
 
 	<properties>
